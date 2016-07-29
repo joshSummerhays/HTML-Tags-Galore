@@ -2,6 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   </head>
   <body>
     <div>
@@ -24,11 +27,15 @@
 
       <div>
         <p>&ltabbr&gt  Defines an abbreviation or an acronym<p>
-        <p>example: &ltabbr&gt&lt/abbr&gt<abbr>placeholder</abbr></p>
+        <p>example: &ltabbr title="Hypertext Markup Language"&gtHTML&lt/abbr&gt</p>
+        <p>looks like: <abbr title="Hypertext Markup Language">HTML</abbr></p>
       </div>
 
-        <acronym>   Not supported in HTML5. Use <abbr> instead.
+      <div>
+        &ltacronym&gt   Not supported in HTML5. Use &ltabbr&gt instead.
         Defines an acronym
+      </div>
+
         <address>   Defines contact information for the author/owner of a document
         <applet>    Not supported in HTML5. Use <embed> or <object> instead.
         Defines an embedded applet
