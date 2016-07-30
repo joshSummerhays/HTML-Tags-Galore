@@ -1,4 +1,4 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html lang="en">
   <head>
   <title>HTML Tags Galore</title>
@@ -7,7 +7,7 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   </head>
-  <body>
+  <body class='container'>
     <div>
       <div>
         <p>&lt!-- "Comment Here" --&gt - leave a single or multi line comment in a HTML document.</p>
@@ -50,11 +50,35 @@
         Find us at:<br>
         example.com<br> 
         </address>
-      <div>
+      </div>
 
-        <applet>    Not supported in HTML5. Use <embed> or <object> instead.
+      <div>
+        &ltapplet&gt    Not supported in HTML5. Use <embed> or <object> instead.
         Defines an embedded applet
-        <area>  Defines an area inside an image-map
+      </div>
+
+      <div>
+        <p>&ltarea&gt  Defines an area inside an image-map</p>
+        <p>example: <br>
+          &ltimg src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Apple_and_Orange_-_they_do_not_compare.jpg" width="165" height="136" alt="Fruits"
+          usemap="#appleorange"&gt
+
+          &ltmap name="appleorange"&gt
+            &ltarea shape="circle" coords="51,58,25" href="https://www.google.com" alt="Apple"&gt
+            &ltarea shape="circle" coords="124,78,40" href="https://www.walmart.com" alt="Orange"&gt
+          &lt/map&gt
+        </p>
+        <p>look like: 
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Apple_and_Orange_-_they_do_not_compare.jpg" width="165" height="136" alt="Fruits"
+          usemap="#appleorange">
+
+          <map name="appleorange">
+            <area shape="circle" coords="51,58,25" href="https://www.google.com" alt="Apple">
+            <area shape="circle" coords="124,78,40" href="https://www.walmart.com" alt="Orange">
+          </map>
+        </p>
+      </div>
+
         <article>   Defines an article
         <aside> Defines content aside from the page content
         <audio> Defines sound content
