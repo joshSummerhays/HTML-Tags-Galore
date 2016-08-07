@@ -7,21 +7,21 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   </head>
-  <body class='container'>
-    <div>
-      <div>
-        <p>&lt!-- "Comment Here" --&gt - leave a single or multi line comment in a HTML document.</p>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <p class="h4">&lt!-- "Comment Here" --&gt - leave a single or multi line comment in a HTML document.</p>
         <p>example: &lt!--some important comment--&gt</p>
         <p>example: &lt!--some important comment<br>continuation of comment--&gt</p>
       </div>
 
-      <div>
-        <p>&lt!DOCTYPE&gt  Tells the browser this is a HTML5 document.<p>
+      <div class="row">
+        <p class="h4">&lt!DOCTYPE&gt  Tells the browser this is a HTML5 document.<p>
         <p>example: place as very first tag in a HTML file</p>
       </div>  
       
-      <div>
-        <p>&lta&gt put a hyperlink in this tag.<p>
+      <div class="row">
+        <p class="h4">&lta&gt put a hyperlink in this tag.<p>
         <p>example: &lta href='https://www.google.com/'&gtclick me!&lt/a&gt</p>
         <p>looks like: <a href='https://www.google.com/'>click me!</a></p>
       </div>
@@ -78,8 +78,33 @@
           </map>
         </p>
       </div>
+      <div>
+        &ltarticle&gt Defines a grouping. Could be used in place of a div.
+        <p>example: 
+          &ltarticle&gt
+            &ltheader&gt
+              &lth1>Big time heading&lt/h1&gt
+              &ltp&gtnice info&lt/p&gt
+            &lt/header&gt   
+          &lt/article&gt
+        </p>
+        <p>looks like: 
+          <article>
+            <header>
+              <h1>Big time heading</h1>
+              <p>nice info</p>
+            </header>      
+          </article>
+        </p>
+      </div>
+        <pre>
+           This pre tag is for
 
-        <article>   Defines an article
+           writting nice poems
+
+           THank goodness    it keeps line breaks and spacing!
+        </pre>
+
         <aside> Defines content aside from the page content
         <audio> Defines sound content
         <b> Defines bold text
@@ -201,6 +226,7 @@
         <wbr>   Defines a possible line-break
 
     </div>
+
 
   </body>
 <html>
