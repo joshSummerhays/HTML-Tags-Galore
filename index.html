@@ -15,47 +15,48 @@
     </div>
   <div class="flex-container" style="text-align:center">
     <div class="flex-item-ref">
-      <h3>HTML Tag Quick Reference</h3>
+      <h3>Quick Reference</h3>
+      <hr>
       <a href="#comment">&lt!-- --&gt</a>
+      <hr>
       <a href="#doctype">&lt!DOCTYPE html&gt</a>
-      <a href="#code">&lt!DOCTYPE html&gt</a>
-      <a href="#code">&ltcode&gt</a>
-      <a href="#code">&ltcode&gt</a>
-      <a href="#code">&ltcode&gt</a>
+      <hr>
+      <a href="#anchor">&lta&gt</a>
+      <hr>
+      <a href="#abbr">&ltabbr&gt</a>
+      <hr>
+      <a href="#address">&ltaddress&gt</a>
+      <hr>
+      <a href="#area">&ltarea&gt</a>
     </div>
 
     <div class="flex-item-main">
       <h3>HTML tag examples</h3>
       <hr>
       <div>
-        <p class="h4 comment">&lt!-- "Comment Here" --&gt - leave a single or multi line comment in a HTML document.</p>
+        <p class="h4" id="comment">&lt!-- "Comment Here" --&gt - leave a single or multi line comment in a HTML document.</p>
         <p>example: &lt!--some important comment--&gt</p>
         <p>example: &lt!--some important comment<br>continuation of comment--&gt</p>
       </div>
       <hr>
       <div>
-        <p class="h4 doctype">&lt!DOCTYPE&gt  Tells the browser this is a HTML5 document.<p>
+        <p class="h4" id="doctype">&lt!DOCTYPE&gt  Tells the browser this is a HTML5 document.<p>
         <p>example: place as very first tag in a HTML file</p>
       </div>  
       <hr>
       <div>
-        <p class="h4">&lta&gt put a hyperlink in this tag.<p>
+        <p class="h4" id="anchor">&lta&gt put a hyperlink in this tag.<p>
         <p>example: &lta href='https://www.google.com/'&gtclick me!&lt/a&gt</p>
         <p>looks like: <a href='https://www.google.com/'>click me!</a></p>
       </div>
       <hr>
-      <div>
+      <div id="abbr">
         <p>&ltabbr&gt  Defines an abbreviation or an acronym.<p>
         <p>example: &ltabbr title="Hypertext Markup Language"&gtHTML&lt/abbr&gt</p>
         <p>looks like: <abbr title="Hypertext Markup Language">HTML</abbr></p>
       </div>
       <hr>
-      <div>
-        &ltacronym&gt   Not supported in HTML5. Use &ltabbr&gt instead.
-        Defines an acronym
-      </div>
-      <hr>
-      <div>
+      <div id="address">
         <p>&ltaddress&gt   Defines name, email and/or phone number for the author/owner of a document.</p>
         <p>example: <br>
         &ltaddress&gt
@@ -70,12 +71,7 @@
         </address>
       </div>
       <hr>
-      <div>
-        &ltapplet&gt    Not supported in HTML5. Use <embed> or <object> instead.
-        Defines an embedded applet
-      </div>
-      <hr>
-      <div>
+      <div id="area">
         <p>&ltarea&gt  Defines an area inside an image-map</p>
         <p>example: <br>
           &ltimg src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Apple_and_Orange_-_they_do_not_compare.jpg" width="165" height="136" alt="Fruits"
@@ -97,7 +93,7 @@
         </p>
       </div>
       <hr>
-      <div>
+      <div id="article">
         &ltarticle&gt Defines a grouping. Could be used in place of a div.
         <p>example: 
           &ltarticle&gt
