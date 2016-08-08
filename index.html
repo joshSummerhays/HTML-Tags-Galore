@@ -3,40 +3,58 @@
   <head>
   <title>HTML Tags Galore</title>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="index.css">
+<!--     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<!--     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="row">
-        <p class="h4">&lt!-- "Comment Here" --&gt - leave a single or multi line comment in a HTML document.</p>
+    <div class="title">
+      <h1 style="text-align:center">HTML Tags Galore</h1>
+      <h3 style="text-align:center">Use the quick links on the left to jump to a specific tag or just browse through what HTML/HTML5 can do. Gotta learn them all!</h3>
+    </div>
+  <div class="flex-container" style="text-align:center">
+    <div class="flex-item-ref">
+      <h3>HTML Tag Quick Reference</h3>
+      <a href="#comment">&lt!-- --&gt</a>
+      <a href="#doctype">&lt!DOCTYPE html&gt</a>
+      <a href="#code">&lt!DOCTYPE html&gt</a>
+      <a href="#code">&ltcode&gt</a>
+      <a href="#code">&ltcode&gt</a>
+      <a href="#code">&ltcode&gt</a>
+    </div>
+
+    <div class="flex-item-main">
+      <h3>HTML tag examples</h3>
+      <hr>
+      <div>
+        <p class="h4 comment">&lt!-- "Comment Here" --&gt - leave a single or multi line comment in a HTML document.</p>
         <p>example: &lt!--some important comment--&gt</p>
         <p>example: &lt!--some important comment<br>continuation of comment--&gt</p>
       </div>
-
-      <div class="row">
-        <p class="h4">&lt!DOCTYPE&gt  Tells the browser this is a HTML5 document.<p>
+      <hr>
+      <div>
+        <p class="h4 doctype">&lt!DOCTYPE&gt  Tells the browser this is a HTML5 document.<p>
         <p>example: place as very first tag in a HTML file</p>
       </div>  
-      
-      <div class="row">
+      <hr>
+      <div>
         <p class="h4">&lta&gt put a hyperlink in this tag.<p>
         <p>example: &lta href='https://www.google.com/'&gtclick me!&lt/a&gt</p>
         <p>looks like: <a href='https://www.google.com/'>click me!</a></p>
       </div>
-
+      <hr>
       <div>
         <p>&ltabbr&gt  Defines an abbreviation or an acronym.<p>
         <p>example: &ltabbr title="Hypertext Markup Language"&gtHTML&lt/abbr&gt</p>
         <p>looks like: <abbr title="Hypertext Markup Language">HTML</abbr></p>
       </div>
-
+      <hr>
       <div>
         &ltacronym&gt   Not supported in HTML5. Use &ltabbr&gt instead.
         Defines an acronym
       </div>
-      
+      <hr>
       <div>
         <p>&ltaddress&gt   Defines name, email and/or phone number for the author/owner of a document.</p>
         <p>example: <br>
@@ -51,12 +69,12 @@
         example.com<br> 
         </address>
       </div>
-
+      <hr>
       <div>
         &ltapplet&gt    Not supported in HTML5. Use <embed> or <object> instead.
         Defines an embedded applet
       </div>
-
+      <hr>
       <div>
         <p>&ltarea&gt  Defines an area inside an image-map</p>
         <p>example: <br>
@@ -78,6 +96,7 @@
           </map>
         </p>
       </div>
+      <hr>
       <div>
         &ltarticle&gt Defines a grouping. Could be used in place of a div.
         <p>example: 
@@ -97,6 +116,7 @@
           </article>
         </p>
       </div>
+      <hr>
         <pre>
            This pre tag is for
 
@@ -104,8 +124,9 @@
 
            THank goodness    it keeps line breaks and spacing!
         </pre>
+        <hr>
         <!--Could use pre tag around the code tags here to keep formating-->
-        <code>
+        <code id="code">
             function(array){
               return array[0];
             };
@@ -118,7 +139,7 @@
             <option>red car</option>
             <option>etc</option>
         </select>
-        <aside> Defines content aside from the page content
+        <!-- <aside> Defines content aside from the page content
         <audio> Defines sound content
         <b> Defines bold text
         <base>  Specifies the base URL/target for all relative URLs in a document
@@ -236,10 +257,9 @@
         <ul>    Defines an unordered list
         <var>   Defines a variable
         <video> Defines a video or movie
-        <wbr>   Defines a possible line-break
-
+        <wbr>   Defines a possible line-break-->
     </div>
-
+  </div>
 
   </body>
 <html>
