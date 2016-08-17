@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
   <title>HTML Tags Galore</title>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
+    <meta name="description" content="HTML and HTML5 Tag examples">
+    <meta name="keywords" content="HTML, HTML5, Tags, Markup, Code">
+    <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="index.css">
 <!--     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
     <!-- Latest compiled and minified CSS -->
@@ -186,6 +189,14 @@
         <hr>
         <iframe src="using src from a tag below" name="iframe_example" height="350px"width="60%"></iframe>
         <p><a href="http://www.walmart.com" target="iframe_example">Walmart.com</a><br>Click the link to have the iframe page pull up!</p>
+        <hr>
+        <p id="demo"></p>
+
+        <script>
+        document.getElementById("demo").innerHTML = "Hello JavaScript!";
+        </script>
+
+        <noscript>Sorry, your browser does not support JavaScript!</noscript>
         <hr>
         <!-- <aside> Defines content aside from the page content
         <audio> Defines sound content
