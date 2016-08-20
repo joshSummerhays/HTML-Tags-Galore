@@ -84,3 +84,7 @@ table th {
 .anch:hover {
     background-color: #111111;
 }
+
+.inputPass {
+    width: 400px;
+}
